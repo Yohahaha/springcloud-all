@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: feign-service
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+logging:
+  level:
+    cn.yoha.feignservice.service.FeignService: debug

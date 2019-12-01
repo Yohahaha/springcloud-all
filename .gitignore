@@ -1,0 +1,44 @@
+# 忽略匹配下列规则的git
+### gradle ###
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.git
+rebel.xml
+
+
+
+### maven 忽略文件###
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*/target
+*.class
+
+### logs ####
+/logs/
+*.log
+
+### temp ignore ###
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+
+### system ignore ###
+.DS_Store
+Thumbs.db
+.metadata
+
+### node ###
