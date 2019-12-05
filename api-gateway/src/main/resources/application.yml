@@ -1,0 +1,11 @@
+service-url:
+  user-service: http://localhost:8081
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: path_route
+          uri: ${service-url.user-service}/user
+          predicates:
+            - Path=/user
